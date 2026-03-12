@@ -8,10 +8,10 @@
     <!-- tailwind -->
      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body class="container mx-auto">
+<body class="container mx-auto   space-y-16">
 
     <header>
-        <nav class="flex justify-between mb-8">
+        <nav class="flex justify-between space-y-16 ">
             <img src="./assets/logo.png" alt="">
             <img src="./assets/menu-bar.png" alt="">
         </nav>
@@ -35,6 +35,34 @@
             </div>
         </section>
     </header>
+
+    <section>
+
+        <h2 class="font-bold text-black text-2xl mb-8">Categories</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 m-4">
+
+            <div class="bg-gradient-to-r from-[#FFA34F] to-[#FF7020] flex items-center justify-between  p-4 rounded-2xl">
+                <h3 class="text-white font-bold">Watch</h3>
+                <img src="./assets/category-watch.png" alt="">
+            </div>
+
+            <div class="bg-gradient-to-r from-[#FF589B] to-[#FF136F] flex items-center justify-between  p-4 rounded-2xl">
+                <h3 class="text-white font-bold">Bag</h3>
+                <img src="./assets/category-bag.png" alt="">
+            </div>
+
+            <div class="bg-gradient-to-r from-[#4242FF] to-[#7D15FF]
+ flex items-center justify-between  p-4 rounded-2xl">
+                <h3 class="text-white font-bold">Shoes</h3>
+                <img src="./assets/category-shoe.png" alt="">
+            </div>
+
+            
+
+        </div>
+    </section>
+
    
 </body>
 </html>
